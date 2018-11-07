@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "1";
+var prefix = "spamcredits";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
@@ -11,7 +11,7 @@ var server = "508651064019386379"; // ايدي السررفر
 var channel = "508651064019386383";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('سبحان الله, Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
-    },400);
+    },305);
 })
 
 client.on('message', message => {
