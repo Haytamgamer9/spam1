@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "spamcredits";
+var prefix = "#credits Motlo#4665 6000";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);  
